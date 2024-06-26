@@ -1,26 +1,34 @@
 #include <stdio.h>
 /**
-* main - enrty point
-* Descr: file for training
-* Return: Always 0 (Success)
+* main - prints even numbers from 0 to 100
+* Return: 0
 */
-int sum(int n1, int n2, int n3);
+
 int main(void)
 {
+		int i;
 
-	int x = sum(1, 2, 3);
+		printf("Before loop\n");
 
-	printf("%d\n", x);
+		for (i = 0; i < 100; i++)
+		{
+				if (i % 2 != 0)
+				{
+						printf("i is not even so don't print\n");
+						continue;
+				}
+				else
+				{
+						printf("i is even, break to print\n");
+						break;
+				}
 
+				printf("Outside of if/else, still inside for loop\n");
 
-}
+				printf("%d\n", i);
+		}
 
-int sum(int n1, int n2, int n3)
-{
+		printf("For loop exited\n");
 
-	int result = n1 + n2 + n3;
-
-	return (result);
-
-	return (0);
+		return(0);
 }
