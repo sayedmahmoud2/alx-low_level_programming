@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
 *print_last_digit - Prints the alphabet in lowercase 10 times.
 *@n: the number input in the function
