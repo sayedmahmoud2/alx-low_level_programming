@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - prints staright line
+ * print_diagonal - print diagonal line
  * @n: input parmetar
  * Return: no return.
  */
@@ -20,6 +20,6 @@ void print_diagonal(int n)
 			_putchar('')
 		}
 		_putchar('\');
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
