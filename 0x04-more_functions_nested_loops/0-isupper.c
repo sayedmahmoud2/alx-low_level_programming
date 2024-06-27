@@ -2,7 +2,7 @@
 /**
 * _isupper- returns the upper char
 * @c: the char
-* Return: largest number
+* Return: 1 if is an uppercase character, 0 in other case.
 */
 int _isupper(int c)
 {
