@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_square - print ractengal
- * @size: input parmetar
- * Return: no return.
- */
+* print_square - print ractengal
+* @size: input parmetar
+* Return: no return.
+*/
 void print_square(int size)
 {
 	int i, j;
@@ -19,7 +19,7 @@ void print_square(int size)
 		{
 			for (j = 0; j < size; j++)
 			{
-				putchar('35');
+				putchar(35);
 			}
 
 		}
