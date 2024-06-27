@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - print diagonal line
- * @n: input parmetar
+ * print_square - print ractengal
+ * @size: input parmetar
  * Return: no return.
  */
 void print_square(int size)
@@ -21,8 +21,8 @@ void print_square(int size)
 			{
 				putchar('35');
 			}
-		  putchar('\n');
+
 		}
 	}
-}
+	putchar('\n');
 }
