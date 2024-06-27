@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * _isupper- returns the upper char
 * @c: the char
