@@ -13,7 +13,7 @@ void print_chessboard(char (*a)[8])
 	{
 		if (j % 8 == 0 && j != 0)
 		{
-			b = i;
+			b = j;
 			_putchar('\n');
 		}
 		_putchar(a[j / 8][j - b]);
