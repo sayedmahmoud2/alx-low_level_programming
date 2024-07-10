@@ -1,4 +1,15 @@
 #include "main.h"
+/**
+ * _sqrt_recursion - returns the natural square root of a number.
+ * @n: input number.
+ * Return: natural square root.
+ */
+
+int _power(int n, int input);
+int _sqrt_recursion(int n)
+{
+	return (_power(n, 1));
+}
 
 /**
  *  _power - returns the natural square root of a number.
@@ -15,15 +26,4 @@ int _power(int n, int input)
 		return (_power(n, input + 1));
 	else
 		return (-1);
-
-/**
- * _sqrt_recursion - returns the natural square root of a number.
- * @n: input number.
- * Return: natural square root.
- */
-
-int _sqrt_recursion(int n)
-{
-	return (_power(n, 1));
-}
 }
