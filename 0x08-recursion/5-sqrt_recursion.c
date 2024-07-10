@@ -7,7 +7,7 @@
 
 int _sqrt_recursion(int n)
 {
-	return (square(n, 1));
+	return (_power(n, 1));
 }
 
 /**
@@ -22,7 +22,7 @@ int _power(int n, int input)
 	if (input * input == n)
 		return (input);
 	else if (input * input < n)
-		return (square(n, input + 1));
+		return (_power(n, input + 1));
 	else
 		return (-1);
 }
