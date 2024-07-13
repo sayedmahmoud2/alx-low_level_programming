@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints all arguments it receives.
+ * main - print the result of the multiplication.
  * @argc: number of command line arguments.
  * @argv: array that contains the program command line arguments.
  * Return: 0 - success.
@@ -16,5 +16,5 @@ int main(int argc, char *argv[])
 	int result =  atoi(argv[1]) * atoi(argv[2]);
 
 	printf("%d\n", result);
-
+	return (0);
 }
